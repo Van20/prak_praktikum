@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'oke']);
+Route::get('/home/page2', [HomeController::class, 'page2']);

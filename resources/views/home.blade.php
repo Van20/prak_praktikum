@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Document Title</title>
-<script>
-// ini adalah penulisan kode javascript
-// di dalam tag <head>
-console.log("Hello JS dari Head");
-</script>
+<title>Home</title>
+
 </head>
 <body>
 <p>Tutorial Javascript untuk Pemula</p>
-<script>
-// ini adalah penulisan kode javascript
-// di dalam tag <body>
-console.log("Hello JS dari body");
-</script>
+
+<a href = "{{url('/home/page2')}}">Next</a>
+
 </body>
 </html>
